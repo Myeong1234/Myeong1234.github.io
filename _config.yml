@@ -105,7 +105,7 @@ author:
   name             : "human"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "한들되나?"
-  location         : "Somewhere"
+  location         : "한국/서울"
   email            :
   links:
     - label: "Email"
