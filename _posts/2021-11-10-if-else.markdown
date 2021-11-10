@@ -2,7 +2,7 @@
 title: "if else문 정리"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
+  - Category
 tags:
   - Post Formats
   - readability
