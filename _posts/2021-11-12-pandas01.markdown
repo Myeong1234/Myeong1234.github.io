@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "python pandas"
 excerpt_separator: "<!--more-->"
 categories:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "python 과 필요 프로그램 설치"
 excerpt_separator: "<!--more-->"
 categories:

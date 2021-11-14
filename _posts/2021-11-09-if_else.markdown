@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "if_else elif for while 자료형"
 excerpt_separator: "<!--more-->"
 categories:

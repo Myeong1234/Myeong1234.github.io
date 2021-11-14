@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "python matplotlib"
 excerpt_separator: "<!--more-->"
 categories:

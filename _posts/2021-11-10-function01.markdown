@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "python 함수"
 excerpt_separator: "<!--more-->"
 categories:

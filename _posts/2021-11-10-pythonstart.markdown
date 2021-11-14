@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "python if else문 정리"
 excerpt_separator: "<!--more-->"
 categories:
