@@ -1,23 +1,24 @@
 ---
-title: "if else문 정리"
+layout: post
+title: "python if else문 정리"
 excerpt_separator: "<!--more-->"
 categories:
   - Category
 tags:
-  - Post Formats
-  - readability
+#   - Post Formats
+#   - readability
   - standard
 ---
 
 # Python
 
-인터프리터 언어
 
 
 
-특징
 
- 1. 무료다
+# 특징
+
+ 1. 무료다 인터프리터 언어다
 
  2. 읽기 쉽고 사용하기 쉽다.
 

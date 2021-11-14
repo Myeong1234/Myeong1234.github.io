@@ -1,0 +1,126 @@
+---
+layout: post
+title: "python pandas"
+excerpt_separator: "<!--more-->"
+categories:
+  - Category
+tags:
+#   - Post Formats
+#   - readability
+  - standard
+---
+
+
+# pandas
+
+시리즈 (1차원 배열, 컬럼이 하나만 있는 형태, 인덱스에 아무것도 안넣어주면 0 ,1,2...)
+
+ 프레임 (2차원 배열)
+
+수정하기 좋다.
+
+```
+import pandas as pd
+x = pd.Series([7,3,5,8], index = ['서울','대구', '부산', '광주'])
+print(x)
+x['서울']
+
+
+서울    7
+대구    3
+부산    5
+광주    8
+dtype: int64
+```
+
+```
+x[['서울', '대구']]
+
+서울    7
+대구    3
+dtype: int64
+```
+
+```
+x.index
+
+Index(['서울', '대구', '부산', '광주'], dtype='object')
+```
+
+```
+x.values
+
+array([7, 3, 5, 8], dtype=int64)
+```
+
+
+
+## sorted()
+
+```
+print(sorted(x.index))
+print(sorted(x.values))
+sorted(x.values)
+
+['광주', '대구', '부산', '서울']
+[3, 5, 7, 8]
+```
+
+## reindex()
+
+```
+strr1 = x.reindex(sorted(['서울','대구', '부산', '광주', '대전','제주도']))
+strr1
+```
+
+
+
+## 시리즈의 합
+
+– 인덱스별로 저장된 값들의 합을 구함
+
+ – x와 y에 공통된 인덱스가 존재해야 더할 수 있으므로 광주와 대전은 NaN으로 표시
+
+```
+x = pd.Series([7,3,5,8], index = ['서울','대구', '부산', '광주'])
+x1 = pd.Series([5,2,7,9], index = ['강릉','대구', '부산', '제주도'])
+
+x +x1
+
+강릉      NaN
+광주      NaN
+대구      5.0
+부산     12.0
+서울      NaN
+제주도     NaN
+dtype: float64
+```
+
+
+
+```
+data = [("a", 2), ("b", 3), ("c", 5)]
+dict(data)
+
+{'a': 2, 'b': 3, 'c': 5}
+```
+
+
+
+```
+pd.Series({"a": 2, "b": 3, "c": 5})
+
+a    2
+b    3
+c    5
+dtype: int64
+```
+
+unique()
+
+
+
+## 딕셔너리 형태 시리즈
+
+
+

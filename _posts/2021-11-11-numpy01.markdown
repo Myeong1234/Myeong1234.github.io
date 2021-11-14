@@ -1,0 +1,281 @@
+---
+layout: post
+title: "주피터 노트북 설치 및 python numpy"
+excerpt_separator: "<!--more-->"
+categories:
+  - Category
+tags:
+#   - Post Formats
+#   - readability
+  - standard
+---
+
+
+# 주피터노트북 설치
+
+pip install jupyter
+
+
+
+# 주피터노트북 익스텐션 설치
+
+https://junpyopark.github.io/Jupyter_Extension/
+
+5가지
+
+​	1.Table of Conents: 마크다운 헤더 수준에 따른 목차 생성
+
+​	2.Autopep8: 자동 코드정리기능( [PEP 8 스타일 가이드](https://www.python.org/dev/peps/pep-0008/) 적용 )[¶](https://junpyopark.github.io/Jupyter_Extension/#Autopep8:-자동-코드정리기능(-PEP-8-스타일-가이드-적용-))
+
+​	3.Variable inspector: 변수들을 트래킹 하는 익스텐션
+
+​	4.ExecuteTime: 셀이 돌아가는 시간 측정
+
+​	5.Hide Code input: 코드부분을 숨기고 결과만 보여줍니다.
+
+
+
+# numpy
+
+
+
+
+
+```
+배열명.shape
+```
+
+(행,열)로 표시된다.
+
+astype()
+
+## axis 축
+
+![axis](C:\Users\mk\Desktop\유비온 교육\python\정리 마크다운\axis.png)
+
+## zeros() , ones()
+
+zeros  지정한 모양만큼 0으로 초기화 해서 만들어준다
+
+ones  지정한 모양만큼 1으로 초기화 해서 만들어준다
+
+```
+numpy.zeros(shape, dtype=float, order='C', *, like=None)
+```
+
+```
+numpy.ones(shape, dtype=None, order='C', *, like=None)[source]
+```
+
+
+
+```
+np.zeros(5)
+array([ 0.,  0.,  0.,  0.,  0.])
+>>> np.zeros((5,), dtype=int)
+array([0, 0, 0, 0, 0])
+############################
+>>> np.zeros((2, 1))
+array([[ 0.],
+       [ 0.]])
+#######################    
+>>> s = (2,2)
+>>> np.zeros(s)
+array([[ 0.,  0.],
+       [ 0.,  0.]])
+########################   
+>>> np.zeros((2,), dtype=[('x', 'i4'), ('y', 'i4')]) # custom dtype
+array([(0, 0), (0, 0)],
+      dtype=[('x', '<i4'), ('y', '<i4')])
+```
+
+
+
+
+
+## mean()  평균
+
+```
+numpy.mean(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=<no value>)
+```
+
+```
+np.mean(a, dtype=np.float64)
+```
+
+dtype=np.float64을 넣어주면 좀더 정확한 답을 얻을 수 있다.
+
+
+
+## reshape()
+
+```
+numpy.reshape(a, newshape, order='C')
+```
+
+
+
+## sqrt()
+
+```
+numpy.sqrt(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj]) = <ufunc 'sqrt'>
+```
+
+
+
+## transpose()  .T와 같은기능
+
+```
+numpy.transpose(a, axes=None)
+```
+
+
+
+## 사칙연산
+
+-2개 배열에 저장된 내용을 인덱스별로 계산 
+
+–선형대수학의 사칙연산과 동일하게 작동
+
+–곱셈도 같은 원리로 동작
+
+```
+x = np.array([1,2,3])
+y = np.array([4,5,6])
+z= x*y
+print(z)
+
+[ 4 10 18]
+```
+
+
+
+## 슬라이싱
+
+```
+a= np.array([10,20,30,40,50,60,70])
+b = np.array(a[1:6:2])
+print('b:', b)
+b[1] = 10
+print('b:', b)
+print('a:', a)
+type(b)
+```
+
+
+
+## random()
+
+메소드에 입력값으로 5를 입력해주면 0에서 1 사이 의 무작위의 수 5개를 생성
+
+```
+numpy.random.random(size=None)
+```
+
+## all()
+
+배열의 모든 원소가 조건을 만족하면 True를 출력, 그렇지 않으면 False를 출력
+
+```
+numpy.all(a, axis=None, out=None, keepdims=<no value>, *, where=<no value>)
+```
+
+## any()
+
+배열에 조건을 만족하는 원소가 있으면 True를 출력
+
+```
+numpy.any(a, axis=None, out=None, keepdims=<no value>, *, where=<no value>)
+```
+
+
+
+## linspace()
+
+시작과 끝의 값을 지정하고 그 사이의 값을 균등하게 배분
+
+```
+numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)
+```
+
+retstep=True이면 샘플 간의 간격을 출력
+
+```
+np.linspace(0,12,4, retstep=True)
+
+(array([ 0.,  4.,  8., 12.]), 4.0)
+```
+
+endpoint=False이면 마지막 값을 제외하고 샘플값을 만들어냄
+
+```
+np.linspace(0,12,4, endpoint=False)
+
+array([0., 3., 6., 9.])
+```
+
+
+
+## logspace()
+
+```
+numpy.logspace(start, stop, num=50, endpoint=True, base=10.0, dtype=None, axis=0)
+```
+
+
+
+```
+np.logspace(np.log10(10), np.log10(100), num=5)
+
+array([ 10.        ,  17.7827941 ,  31.6227766 ,  56.23413252,
+       100.        ])
+```
+
+```
+np.logspace(1,2,5)
+
+array([ 10.        ,  17.7827941 ,  31.6227766 ,  56.23413252,
+       100.        ])
+```
+
+
+
+## numpy.random.rand
+
+```
+random.rand(d0, d1, ..., dn)
+```
+
+## numpy.random.randn	 “standard normal”
+
+```
+matlib.randn(*args)
+```
+
+
+
+```
+np.random.randn(5)
+
+array([ 0.83850061, -1.69084816,  1.15117366, -1.02933685, -0.51099219])
+```
+
+```
+np.random.randn(5,4)
+
+array([[-2.36027053,  0.10359513,  1.73881773,  1.24187584],
+       [ 0.13241276,  0.57779396, -1.57590571, -1.29279424],
+       [-0.65991979, -0.87400478, -0.68955061, -0.53547985],
+       [ 1.52795302,  0.64720579, -0.67733661, -0.2650188 ],
+       [ 0.74610644, -3.13078483,  0.05962178, -0.87521111]])
+```
+
+```
+m = 10 ; s= 2
+m + s *np.random.randn(5)
+
+array([13.07145324, 10.50999545,  8.3116855 ,  8.03411308,  9.38780434])
+```
+
+
+

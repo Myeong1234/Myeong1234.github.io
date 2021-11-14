@@ -1,0 +1,157 @@
+---
+layout: post
+title: "python 과 필요 프로그램 설치"
+excerpt_separator: "<!--more-->"
+categories:
+  - Category
+tags:
+#   - Post Formats
+#   - readability
+  - standard
+---
+
+# 설치
+
+# 크롬 desktophost 설치  
+
+원격제어
+
+https://remotedesktop.google.com/support/
+
+
+
+# slack 설치 
+
+커뮤니티?
+
+https://slack.com/intl/ko-kr/downloads/windows
+
+
+
+# git 설치
+
+http://git-scm.com/download/win
+
+
+
+# typora 설치
+
+블로그 글 복사용도
+
+https://typora.io/
+
+
+
+# visual studio code 설치
+
+https://code.visualstudio.com/download
+
+
+
+# rudy 설치
+
+Ruby+Devkit 3.0.2-1 (x64) 혹은 자신의 컴퓨터에 맞게 설치
+
+https://rubyinstaller.org/downloads/
+
+잘깔렸는지 확인
+
+터미널창에
+
+```
+ruby --version
+```
+
+
+
+# gem 설치
+
+터미널 창에서
+
+```
+gem install jekyll bundler
+```
+
+
+
+# Jekyll 설치
+
+```
+gem install jekyll bundler 			-jekyll 설치
+jekyll new ./      					-jekyll 생성
+bundle install     					-bundle 설치
+bundle exec jekyll serve			-jekyll 로컬서버에 띄우기
+```
+
+
+
+
+
+# Github
+
+깃허브 회원 가입
+
+New repository 선택 => 저장소 이름(Repository name)에 소유자(Owner).github.io 생성
+
+C에 apps 폴더 만들고 소유자(Owner).github.io 폴더 생성
+
+터미널 창 위치는 C:\apps\소유자(Owner).github.io 로 이동
+
+```
+cd C:\apps\소유자(Owner).github.io
+```
+
+commit 해주기 (내컴퓨터 저장?)
+
+```
+git init
+git add . 
+git commit -m "아무글자" 
+```
+
+git commit 이후 지금까지한거 확인
+
+```
+git status	-현재 add 내역을 확인할 수 있습니다.
+```
+
+생성시 나오는 밑에 3줄 복사 붙여넣기
+
+```
+git branch -M main
+git remote add origin https://github.com/Myeong1234/python_lecture.git
+git push -u origin main
+```
+
+push (Github에  올려주기)
+
+
+
+
+
+# Github 테마 변경
+
+테마 추천 사이트에서 테마 고르기
+
+https://github.com/topics/jekyll-theme 테마 고르기
+
+선택후 
+
+1.우측상단에 fork
+
+2.code -> Download Zip -> 압축 풀기 -> 만들어 놓은 소유자.github.io에 덮어쓰기
+
+
+
+저장후 
+
+```
+git add . 
+git commit -m "아무글자" 
+git push -u origin main
+```
+
+
+
+
+
