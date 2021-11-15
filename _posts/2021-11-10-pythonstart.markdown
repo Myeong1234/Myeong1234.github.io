@@ -2,11 +2,11 @@
 title: "python if else문 정리"
 excerpt_separator: "<!--more-->"
 categories:
-  - Category
+  - Post Formats
 tags:
-#   - Post Formats
-#   - readability
-  - standard
+   - Post Formats
+   - readability
+   - standard
 ---
 
 # Python

@@ -2,11 +2,11 @@
 title: "python 과 필요 프로그램 설치"
 excerpt_separator: "<!--more-->"
 categories:
-  - Category
+  - Post Formats
 tags:
-#   - Post Formats
-#   - readability
-  - standard
+   - Post Formats
+   - readability
+   - standard
 ---
 
 # 설치
