@@ -313,4 +313,4 @@ for i in number_generator():
 
 self
 
-참고 사이트 https://wikidocs.net/28
+참고 사이트 link: https://wikidocs.net/28
