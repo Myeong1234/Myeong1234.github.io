@@ -57,7 +57,7 @@ new 버튼을 눌러준다~
 
 저는 `git colne https://github.com/Myeong1234/Myeong1234.github.io.git `이 되겠네요
 
-![폴더](C:\apps\Myeong1234.github.io\github_img\폴더.png)
+![폴더](\github_img\폴더.png)
 
 그림처럼 폴더하나가 생기고 파일이 안에 파일들이 생성 되었습니다.
 
