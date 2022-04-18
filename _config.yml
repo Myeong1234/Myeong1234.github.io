@@ -16,12 +16,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "KO"
-title                    : "myeong blog"
+title                    : "myeong gyo blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "myeong"
+name                     : "myeong gyo"
 description              : "my blog"
-url                      :  "https://Myeong1234.github.io"
+url                      : "https://Myeong1234.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -102,9 +102,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "human"
-  avatar           : /assets/images/woww.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "한글되나?"
+  name             : "myeong gyo"
+  avatar           : /assets/images/main_img.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "개인 블로그 입니다."
   location         : "한국/서울"
   email            :
   links:
