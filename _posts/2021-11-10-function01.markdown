@@ -5,8 +5,6 @@ categories:
   - Post Formats
 tags:
    - Post Formats
-   - readability
-   - standard
 ---
 
 # 함수 funsion

@@ -1,8 +1,20 @@
+```
+title: "Github 블로그 만들기"
+excerpt_separator: "<!--more-->"
+categories:
+  - Post Formats
+tags:
+   - python
+   - github
+```
+
+
+
 # **Github 블로그 만들기**
 
 **1. 새로운 Repository를 만든다.** 
 
-![생성1](C:\apps\Myeong1234.github.io\github_img\생성1.png)
+![생성1](github_img\github_img\생성1.png)
 
 new 버튼을 눌러준다~
 
@@ -12,7 +24,7 @@ new 버튼을 눌러준다~
 
 > 반드시 **username.github.io** 이런식으로 만들어주세요.
 
-![생성2](C:\apps\Myeong1234.github.io\github_img\생성2.png)
+![생성2](github_img\github_img\생성2.png)
 
 저는 UserName이 Myeong1234라서 **Myeong1234.github.io**로 만들어 주었습니다.
 
@@ -26,7 +38,7 @@ new 버튼을 눌러준다~
 
  **3. clone하기**
 
-![생성3](C:\apps\Myeong1234.github.io\github_img\생성3.png)
+![생성3](github_img\github_img\생성3.png)
 
 저는 만들어 놓은 블로그가 있어서 항목들이 있는데 없는게 정상입니다
 
@@ -67,7 +79,7 @@ git commit -m "Initial commit"
 git push -u origin main
 ```
 
-github사이트로 와서![기본](C:\apps\Myeong1234.github.io\github_img\기본.png)
+github사이트로 와서![기본](github_img\github_img\기본.png)
 
 위 페이지에서 index.html ,(README.md) 가 있으면 잘 된겁니다.
 
@@ -129,7 +141,7 @@ bundle exec jekyll serve
 
 브라우저창에 입력을 해주면 
 
-![제키](C:\apps\Myeong1234.github.io\github_img\제키.png)
+![제키](github_img\github_img\제키.png)
 
 요런 창이 나오면 성공 입니다.
 
@@ -177,7 +189,7 @@ git push
 
 [github.com/thelehhman/plainwhite-jekyll](github.com/thelehhman/plainwhite-jekyll)로 선택해서 진행 해보겠습니다.
 
-![테마적용](C:\apps\Myeong1234.github.io\github_img\테마적용.png)
+![테마적용](github_img\github_img\테마적용.png)
 
 선택하신 테마의 깃허브로 가서 
 
@@ -186,7 +198,7 @@ git push
 3. 다운받은 파일을 압축을 풀어줍니다.
 4. 압축 받은 파일들을 전체 복사해 줍니다 
 
-![파일복사](C:\apps\Myeong1234.github.io\github_img\파일복사.png)
+![파일복사](github_img\github_img\파일복사.png)
 
 5. 복사했던 파일을 위에서 만들었던 username.github.io 폴더에 붙여넣기 해줍니다. 
 6. 터미널 창으로 가서 bundle install 과 bundle exec jekyll serve을 입력해 줍니다.
@@ -198,7 +210,7 @@ bundle exec jekyll serve
 
 7. 입력 후 브라우저창으로 가서 http://127.0.0.1:4000 주소를 입력해주면 아까 복사해 온 테마가 아래 그림처럼적용 되었을 겁니다.
 
-![테마적용이미지](C:\apps\Myeong1234.github.io\github_img\테마적용이미지.png)
+![테마적용이미지](github_img\github_img\테마적용이미지.png)
 
 
 
@@ -206,7 +218,7 @@ bundle exec jekyll serve
 
 github.io폴더에 있는 _congif.yml을 열어줍니다
 
-![코드변경](C:\apps\Myeong1234.github.io\github_img\코드변경.png)
+![코드변경](github_img\github_img\코드변경.png)
 
 위 그림처럼 열릴텐데 title, email,name, tagline 등을 자신의 정보로 변환해 주고 저장을 해줍니다.
 
