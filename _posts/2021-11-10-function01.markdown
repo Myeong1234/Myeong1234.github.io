@@ -4,7 +4,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - Post Formats
 tags:
-   - Post Formats
+   - python
 ---
 
 # 함수 funsion
