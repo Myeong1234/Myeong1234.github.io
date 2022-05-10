@@ -1,5 +1,7 @@
 ---
 title: "주가예측 (크롤링, mysql, LSTM)"
+toc: true
+toc_sticky: true
 excerpt_separator: "<!--more-->"
 categories:
   - Post Formats

@@ -1,5 +1,7 @@
 ---
 title: "Github 블로그 만들기"
+toc: true
+toc_sticky: true
 excerpt_separator: "<!--more-->"
 categories:
 

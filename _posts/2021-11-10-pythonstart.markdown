@@ -1,5 +1,7 @@
 ---
 title: "python if else문 정리"
+toc: true
+toc_sticky: true
 excerpt_separator: "<!--more-->"
 categories:
   - Post Formats

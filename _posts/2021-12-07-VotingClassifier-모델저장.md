@@ -1,5 +1,7 @@
 ---
 title: "VotingClassifier, 모델 저장"
+toc: true
+toc_sticky: true
 excerpt_separator: "<!--more-->"
 categories:
   - Post Formats
