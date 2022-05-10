@@ -1,9 +1,9 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-  #   url: /about/ #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Category" #"About"
-    url: /categories/ #https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Introduce"
+    url: /about/ 
+  # - title: "Category" #"About"
+  #   url: /categories/ #https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
@@ -20,12 +20,12 @@ docs:
     children:
       - title: "python"
         url: /tag/python/
-        category: "python"
+        tag: "python"
   - title: 데이터 분석
     children:
       - title: "데이터 분석"
         url: /tag/데이터 분석/
-        category: "데이터 분석"
+        tag: "데이터 분석"
 
   # - title: 크롤링
   #   children:

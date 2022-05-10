@@ -3,6 +3,9 @@ title: "주피터 노트북 설치 및 python numpy"
 toc: true
 toc_sticky: true
 excerpt_separator: "<!--more-->"
+author_profile: true
+sidebar:
+  nav: "main"
 categories:
   - Post Formats
 tags:

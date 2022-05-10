@@ -3,6 +3,9 @@ title: "트위터 크롤링"
 toc: true
 toc_sticky: true
 excerpt_separator: "<!--more-->"
+author_profile: true
+sidebar:
+  nav: "main"
 categories:
   - Post Formats
 tags:

@@ -3,6 +3,9 @@ title: "python 과 필요 프로그램 설치"
 toc: true
 toc_sticky: true
 excerpt_separator: "<!--more-->"
+author_profile: true
+sidebar:
+  nav: "main"
 categories:
   - Post Formats
 tags:
