@@ -56,9 +56,9 @@ e-mail : audry37@naver.com
 
 스타일 투자전략 기반 주식 포트폴리오 성과 예측 및 평가
 
-https://myeong1234.github.io/post%20formats/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B81/
+[프로젝트1 링크](https://myeong1234.github.io/post%20formats/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B81/)
 
 부실기업 예측을 통한 Active 전략 수립
 
-https://myeong1234.github.io/post%20formats/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B82/
+[프로젝트2 링크](https://myeong1234.github.io/post%20formats/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B82/)
 
