@@ -17,10 +17,10 @@ permalink: /about/
 
 
 # 자기소개
+|사진 | 소개 |
+|-----|-----| 
+|<img src="./github_img/%EB%82%B4%EC%82%AC%EC%A7%84.jpg" width="100" height="100"/>|이름 : 서명교 <br>e-mail : audry37@naver.com |
 
-이름 : 서명교
-
-e-mail : audry37@naver.com
 
 
 
