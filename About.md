@@ -18,7 +18,7 @@ permalink: /about/
 
 # 자기소개
 |사진 | 소개 |   
-|-----|-----|  
+| --- | --- |  
 | ![내사진](./github_img/%EC%A6%9D%EB%AA%85%EC%82%AC%EC%A7%84.jpg) |이름 : 서명교 <br>e-mail : audry37@naver.com |
 
 
