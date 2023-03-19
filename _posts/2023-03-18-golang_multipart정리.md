@@ -19,7 +19,7 @@ Go 언어에서는 mime/multipart 패키지를 사용하여 multipart/form-data 
 multipart.Writer 타입을 제공, multipart.Writer는 io.Writer 인터페이스를 구현, 이를 사용하여 multipart 요청의 각 part를 작성
 
 Go 예시
-```Go
+```go
 package main
 
 import (
@@ -76,7 +76,7 @@ func main() {
 CreateFormFile으로 작성해 주게되면 내부의 Content-type이 application/octet-stream으로 고정되며, 바꾸고 싶다면 CreatePart를 사용하여 직접 작성 해줄 필요가 있음 (예시 1번 Header.Set 이된다고 나와있는데 사용이 안되었음 2번 방법으로 성공)
 
 Go 코드 예시 1
-```Go
+```go
 func main() {
     // Create a new multipart writer
     var buf bytes.Buffer
@@ -124,7 +124,7 @@ func main() {
 
 예시 2
 
-```Go
+```go
 func main() {
     // Create a new multipart writer
     var buf bytes.Buffer
